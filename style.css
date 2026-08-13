@@ -189,10 +189,12 @@ img { max-width: 100%; display: block; }
 
 /* Contacto */
 .contact-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 5rem; }
+.contact-info, .contact-form { min-width: 0; }
 .contact-info p { font-size: 1.05rem; color: rgba(255,255,255,0.6); max-width: 460px; margin-bottom: 2.2rem; }
 .contact-details { margin-top: 2rem; display: flex; flex-direction: column; gap: 1.1rem; }
-.contact-details li { display: flex; align-items: center; gap: 0.9rem; font-size: 1rem; color: rgba(255,255,255,0.85); }
+.contact-details li { display: flex; align-items: center; gap: 0.9rem; font-size: 1rem; color: rgba(255,255,255,0.85); min-width: 0; }
 .contact-details li svg { flex-shrink: 0; color: var(--gold-soft); }
+.contact-details a { overflow-wrap: anywhere; }
 .contact-details a:hover { color: var(--gold-soft); }
 
 .contact-form { margin-top: 0.3rem; }
